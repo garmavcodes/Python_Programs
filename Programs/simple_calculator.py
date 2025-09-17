@@ -7,4 +7,4 @@ print("The mul of a and b:",a*b) #prints muliplication
 print("The div of a and b:",a/b) #prints division
 print("The mod of a and b:",a%b) #prints modulus
 print("The exp of a and b:",a**b) #prints exponentiation
-print("The floor of a and b:",a/b) #prints floor division
+print("The floor of a and b:",a//b) #prints floor division
