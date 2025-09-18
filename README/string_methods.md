@@ -1,4 +1,4 @@
-# Python String Methods – Demo and Explanation
+# Python String Methods – Demo and Explanation\n
 
 This script demonstrates various Python string methods with a sample string.
 
