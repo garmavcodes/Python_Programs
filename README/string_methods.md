@@ -1,10 +1,11 @@
-# Python String Methods – Demo and Explanation\n
+# Python String Methods – Demo and Explanation
 
 This script demonstrates various Python string methods with a sample string.
 
 a = "!!!!heLLo My n!!ame is SHarika!!!!!!"  # The sample string
 
 print(a.upper())           # Converts all letters to uppercase
+
 print(a.lower())           # Converts all letters to lowercase
 print(a.rstrip("!"))       # Removes trailing '!' characters
 print(a.lstrip("!"))       # Removes leading '!' characters
