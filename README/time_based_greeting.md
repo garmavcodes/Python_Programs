@@ -1,4 +1,4 @@
-#Time Based Greeting in Python
+# Time Based Greeting in Python
 
 This simple Python program takes name input from the user and greets the user based on the current time. 
 
