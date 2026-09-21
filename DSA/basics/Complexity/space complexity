@@ -1,0 +1,25 @@
+# SPACE COMPLEXITY
+# O(n) Space
+def linear_space(n):
+    values = []
+    for i in range(n):
+        values.append(i)
+    return values
+
+# O(1) Auxiliary Space
+def constant_space(arr):
+    total = 0
+    for x in arr:
+        total += x
+    return total
+
+# O(n²) Space
+def quadratic_space(n):
+    matrix = [[0] * n for _ in range(n)]
+    return matrix
+
+# Recursion - O(n) Space
+def recursive_function(n):
+    if n == 0:
+        return
+    recursive_function(n - 1)
