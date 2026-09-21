@@ -1,0 +1,25 @@
+# TIME COMPLEXITY 
+
+# O(1) - Constant Time
+def constant_time(arr):
+    return arr[0]
+
+# O(log n) - Logarithmic Time
+def logarithmic_time(n):
+    while n > 1:
+        n = n // 2
+
+# O(n) - Linear Time
+def linear_time(arr):
+    for x in arr:
+        print(x)
+
+# O(n log n) - Linearithmic Time
+def linearithmic_time(arr):
+    arr.sort()       
+
+# O(n²) - Quadratic Time
+def quadratic_time(arr):
+    for i in range(len(arr)):
+        for j in range(len(arr)):
+            print(arr[i],arr[j])
