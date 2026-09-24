@@ -1,0 +1,9 @@
+arr=[3,121,1,60,14]
+n=len(arr)
+for i in range(n):
+    min=arr[i]
+    for j in range(i,n):
+        if arr[j]< min:
+            min=arr[j]
+            arr[j],arr[i]=arr[i],arr[j]
+print(arr)
